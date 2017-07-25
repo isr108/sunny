@@ -1,0 +1,22 @@
+diff a/MyApplication/app/src/androidTest/java/com/example/user/myapplication/ApplicationTest.java.rej b/MyApplication/app/src/androidTest/java/com/example/user/myapplication/ApplicationTest.java.rej	(rejected hunks)
+@@ -0,0 +1,20 @@
++diff a/MyApplication/app/src/androidTest/java/com/example/user/myapplication/ApplicationTest.java b/MyApplication/app/src/androidTest/java/com/example/user/myapplication/ApplicationTest.java	(rejected hunks)
++@@ -0,0 +1,18 @@
+++package com.example.user.myapplication;
+++
+++/**
+++ * Created by user on 2017-07-24.
+++ */
+++
+++import android.app.Application;
+++import android.test.ApplicationTestCase;
+++
+++
+++/**
+++ * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+++ */
+++ public class ApplicationTest extends ApplicationTestCase<Application> {
+++     public ApplicationTest() {
+++                 super(Application.class);
+++             }
+++ }
